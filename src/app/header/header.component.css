@@ -1,0 +1,76 @@
+.nav li .active_1{
+    background: url('../../assets/img/1.png') center bottom no-repeat;
+}
+#top{
+    background: rgb(49, 7, 11);
+
+/*  background:#ee0b42;*/
+padding-top:10px;
+padding-bottom:10px;
+}
+.top_left p{
+font-size: 18px;
+color: #fff;
+}
+.top_right span{
+font-size:20px;
+color:#fff; 
+}
+.top_right span i{
+vertical-align:middle;
+font-size:30px;
+margin-right:3px;
+}
+.top_right .span_2 i{
+color:#006600;
+}
+.top_right .span_1{
+padding-right:10px;
+}
+
+  #header .navbar-default {
+   background: #fbf5f5;
+  }
+  #header{
+      
+      background: #fbf5f5;
+      }
+ 
+  .navbar-brand {
+     font-size:35px;
+     font-family:"Courier New", Courier, monospace;
+     font-style:oblique;
+     color:#ee0b42!important;
+      font-weight:bold;
+     }
+  .navbar-brand span{
+     color:#990000;
+     font-size:14px;
+      font-family:Garamond;
+     font-style:normal;
+     font-weight:bold;
+     padding-left:45px;
+     }
+     .title
+     {
+         color: #fbf5f5;
+     }
+     .title span::before {
+        content: '';
+        color: #ff0202;
+        padding: 8px;
+        background: #f0c0c0;
+        border-radius: 15px;
+        border: 1px solid #b47602;
+        animation: lyrics 5s infinite;
+        box-shadow: 0 0 19px 
+      }
+      @keyframes lyrics {
+        0% {
+          content: 'Marriage';
+        }
+        50% {
+          content: 'Marriage';
+        }
+      }
+      
